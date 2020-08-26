@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+
+    <body>
+        <div id="contents">
+            <div id="filter-label__length">
+                <label for="length-filter-selector">Length Filter :</lavel>
+            </div>
+            <select id="length-filter-selector">
+                <option value="">None</option>
+                <option value="1 point">1</option>
+                <option value="3 points">3</option>
+                <option value="5 points">5</option>
+                <option value="7 points">7</option>
+                <option value="9 points">9</option>
+                <option value="11 points">11</option>
+                <option value="13 points">13</option>
+                <option value="15 points">15</option>
+                <option value="17 points">17</option>
+                <option value="19 points">19</option>
+                <option value="21 points">21</option>
+                <option value="23 points">23</option>
+                <option value="25 points">25</option>
+            </select>
+
+            <div id="filter-label__clock">
+                <label for="clock-filter-selector">Clock Filter :</lavel>
+            </div>
+            <select id="clock-filter-selector">
+                <option value="">None</option>
+                <option value="Normal">Normal (10s + 1m)</option>
+                <option value="Speed">Speed (8s + 0.4m)</option>
+                <option value="Casual">Casual (15s + 3m)</option>
+            </select>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

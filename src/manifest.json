@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "BackgammonGalxy Game Filter",
+    "version": "1.0",
+
+    "description": "Show only games that meet the conditions (Length, Clock)",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "page_action": {
+        "browser_style": true,
+        "default_icon": "icons/icon.png",
+        "default_title": "BackgammonGalxy Filter",
+        "default_popup": "popup/index.html",
+        "show_matches": ["*://backgammongalaxy.com/"]
+    }
+}
